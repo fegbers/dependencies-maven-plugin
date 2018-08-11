@@ -29,7 +29,6 @@ dependency_org_projectlombok_lombok_jar=1.16.22
 dependency_org_assertj_assertj-core_jar=3.9.1
 dependency_org_springframework_boot_spring-boot-starter-web_jar=2.0.4.RELEASE
 dependency_junit_junit_jar=4.12
-
 ```
 To execute this plugin you have to call the goal "save".
 ``` bash
