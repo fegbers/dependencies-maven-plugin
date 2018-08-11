@@ -47,6 +47,9 @@
 		<maven-plugin-api.version>3.5.4</maven-plugin-api.version>
 		<maven-plugin-annotations.version>3.5.2</maven-plugin-annotations.version>
 		<maven-core.version>3.5.4</maven-core.version>
+		<junit.version>4.12</junit.version>
+		<easymock.version>3.6</easymock.version>
+		<powermock.version>1.7.4</powermock.version>
 	</properties>
 
 	<dependencies>
@@ -70,25 +73,25 @@
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>4.12</version>
+			<version>${junit.version}</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.easymock</groupId>
 			<artifactId>easymock</artifactId>
-			<version>3.6</version>
+			<version>${easymock.version}</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.powermock</groupId>
 			<artifactId>powermock-module-junit4</artifactId>
-			<version>1.7.4</version>
+			<version>${powermock.version}</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.powermock</groupId>
 			<artifactId>powermock-api-easymock</artifactId>
-			<version>1.7.4</version>
+			<version>${powermock.version}</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
