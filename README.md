@@ -1,5 +1,5 @@
 # dependencies-maven-plugin
-This plugin scans your project dependencies and adds them to a json-file called "dependencies.properties" in "target/classes".
+This plugin scans your project dependencies and adds them to a file called "dependencies.properties" in "target/classes".
 ```
 <plugin>
 	<groupId>de.fegbers</groupId>
