@@ -7,6 +7,7 @@ This plugin scans your project dependencies and adds them to a file called "depe
 	<version>0.1.0-RC</version>
 	<executions>
 		<execution>
+			<phase>initialize</phase>
 			<goals>
 				<goal>save</goal>
 			</goals>
